@@ -65,7 +65,7 @@ document.querySelectorAll(".elem").forEach(function (elem) {
 
     // Ensure the image is initially hidden and absolutely positioned
     image.style.position = "absolute";
-    image.style.pointerEvents = "none"; // optional: makes image not block mouse events
+    image.style.pointerEvents = "none"; 
 
     elem.addEventListener("mouseleave", function () {
         gsap.to(image, {
